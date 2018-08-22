@@ -169,12 +169,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5AD9B51B45C07300ED25A3 /* JLRoutes.h in Headers */,
 				5DA69C691DAB4C3A007C8E9C /* JLRRouteResponse.h in Headers */,
-				5DA69C5D1DAB4C3A007C8E9C /* JLRParsingUtilities.h in Headers */,
 				5DE775671EA1B15200375C1D /* JLRRouteHandler.h in Headers */,
 				5DA69C611DAB4C3A007C8E9C /* JLRRouteDefinition.h in Headers */,
-				5C5AD9B51B45C07300ED25A3 /* JLRoutes.h in Headers */,
 				5DA69C651DAB4C3A007C8E9C /* JLRRouteRequest.h in Headers */,
+				5DA69C5D1DAB4C3A007C8E9C /* JLRParsingUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +377,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joeldev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = JLRoutes;
@@ -415,6 +416,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joeldev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = JLRoutes;
